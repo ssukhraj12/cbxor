@@ -2,17 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Admin Dashboard Template</title>
+<title>ULTIMO Admin Dashboard Template</title>
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="css/animate.css" rel="stylesheet" type="text/css" />
 <link href="css/admin.css" rel="stylesheet" type="text/css" />
-<link href="css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-<link href="plugins/kalendar/kalendar.css" rel="stylesheet">
-<link rel="stylesheet" href="plugins/scroll/nanoscroller.css">
-<link href="plugins/morris/morris.css" rel="stylesheet" />
 </head>
 <body class="light_theme  fixed_header left_nav_fixed">
 <div class="wrapper">
@@ -21,30 +16,17 @@
     <!--\\\\\\\ header Start \\\\\\-->
     <div class="brand">
       <!--\\\\\\\ brand Start \\\\\\-->
-      <div class="logo" style="display:block"><span class="theme_color">Super</span> Admin</div>
+	   <div class="logo" style="display:block"><span class="theme_color">XOR</span> SuperAdmin</div>
       <div class="small_logo" style="display:none"><img src="images/s-logo.png" width="50" height="47" alt="s-logo" /> <img src="images/r-logo.png" width="122" height="20" alt="r-logo" /></div>
-    </div>
-    <!--\\\\\\\ brand end \\\\\\-->
+    </div> 	   <!--\\\\\\\ brand end \\\\\\-->
     <div class="header_top_bar">
       <!--\\\\\\\ header top bar start \\\\\\-->
       <a href="javascript:void(0);" class="menutoggle"> <i class="fa fa-bars"></i> </a>
       <div class="top_left">
         <div class="top_left_menu">
           <ul>
-            <li> <a href="javascript:void(0);"><i class="fa fa-repeat"></i></a> </li>
-            <li class="dropdown"> <a data-toggle="dropdown" href="javascript:void(0);"> <i class="fa fa-th-large"></i> </a>
-			<ul class="drop_down_task dropdown-menu" style="margin-top:39px">
-				<div class="top_left_pointer"></div>
-				<li><div class="checkbox">
-                  <label>
-                    <input type="checkbox" name="remember">
-                    Remember me </label>
-                </div></li>
-				<li> <a href="help.php"><i class="fa fa-question-circle"></i> Help</a> </li>
-				<li> <a href="settings.php"><i class="fa fa-cog"></i> Setting </a></li>
-				<li> <a href="login.php"><i class="fa fa-power-off"></i> Logout</a> </li>
-		  </ul>
-			</li>
+            <li> <a href="javascript:void(0);"> <i class="fa fa-repeat"></i> </a> </li>
+            <li> <a href="javascript:void(0);"> <i class="fa fa-th-large"></i> </a> </li>
           </ul>
         </div>
       </div>
@@ -118,26 +100,24 @@
             <li> <a href="login.php"><i class="fa fa-power-off"></i> Logout</a> </li>
           </ul>
         </div>
-
         <a href="javascript:;" class="toggle-menu menu-right push-body jPushMenuBtn rightbar-switch"><i class="fa fa-comment chat"></i></a>
-        
       </div>
     </div>
     <!--\\\\\\\ header top bar end \\\\\\-->
   </div>
   <!--\\\\\\\ header end \\\\\\-->
   <div class="inner">
-    <!--\\\\\\\ inner start \\\\\\--><div class="left_nav">
-
+    <!--\\\\\\\ inner start \\\\\\-->
+    <div class="left_nav">
       <!--\\\\\\\left_nav start \\\\\\-->
       <div class="search_bar"> <i class="fa fa-search"></i>
         <input name="" type="text" class="search" placeholder="Search Dashboard..." />
       </div>
       <div class="left_nav_slidebar">
         <ul>
-          <li class="left_nav_active theme_border"><a href="javascript:void(0);"><i class="fa fa-home"></i> DASHBOARD <span class="left_nav_pointer"></span> <span class="plus"><i class="fa fa-plus"></i></span> </a>
-            <ul class="opened" style="display:block">
-              <li> <a href="index.html"> <span>&nbsp;</span> <i class="fa fa-circle theme_color"></i> <b class="theme_color">Dashboard</b> </a> </li>
+          <li><a href="javascript:void(0);"><i class="fa fa-home"></i> DASHBOARD <span class="left_nav_pointer"></span> <span class="plus"><i class="fa fa-plus"></i></span> </a>
+            <ul>
+              <li> <a href="index.php" class="left_nav_sub_active"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Dashboard</b> </a> </li>
               <li> <a href="settings.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Settings</b> </a> </li>
               <li> <a href="layouts.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Layouts</b> </a> </li>
               <li> <a href="themes.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Themes</b> </a> </li>
@@ -204,10 +184,10 @@
               <li> <a href="datatable.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Data Table</b> </a> </li>
             </ul>
           </li>
-          <li> <a href="javascript:void(0);"> <i class="fa fa-glass"></i> EXTRA <span class="plus"><i class="fa fa-plus"></i></span></a>
-            <ul>
+          <li class="left_nav_active theme_border"> <a href="javascript:void(0);"> <i class="fa fa-glass"></i> EXTRA <span class="plus"><i class="fa fa-plus"></i></span></a>
+            <ul class="opened" style="display:block">
               <li> <a href="timeline.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Timeline</b> </a> </li>
-              <li> <a href="profile.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Profile</b> </a> </li>
+              <li> <a href="profile.php"> <span>&nbsp;</span> <i class="fa fa-circle theme_color"></i> <b class="theme_color">Profile</b> </a> </li>
               <li> <a href="contactlist.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Contact List</b> </a> </li>
               <li> <a href="maps.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Maps</b> </a> </li>
               <li> <a href="gallery.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Gallery</b> </a> </li>
@@ -222,353 +202,260 @@
       <!--\\\\\\\ contentpanel start\\\\\\-->
       <div class="pull-left breadcrumb_admin clear_both">
         <div class="pull-left page_title theme_color">
-          <h1>Dashboard</h1>
+          <h1>Profile</h1>
           <h2 class="">Subtitle goes here...</h2>
         </div>
         <div class="pull-right">
           <ol class="breadcrumb">
             <li><a href="#">Home</a></li>
-            <li><a href="#">DASHBOARD</a></li>
-            <li class="active">Dashboard</li>
+            <li><a href="#">EXTRA </a></li>
+            <li class="active">Profile</li>
           </ol>
         </div>
       </div>
       <div class="container clear_both padding_fix">
         <!--\\\\\\\ container  start \\\\\\-->
-        <div class="row">
-          <div class="col-sm-3 col-sm-6">
-            <div class="information green_info">   
-              <div class="information_inner">
-              	<div class="info green_symbols"><i class="fa fa-users icon"></i></div>
-                <span>TODAY SALES </span>
-                <h1 class="bolded">12,254K</h1>
-                <div class="infoprogress_green">
-                  <div class="greenprogress"></div>
+        <div class="page-content">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="profile_bg">
+                <div class="user-profile-sidebar">
+                  <div class="row">
+                    <div class="col-md-4"><img src="images/pro.png" /></div>
+                    <div class="col-md-8">
+                      <div class="user-identity">
+                        <h4><strong>John Doe</strong></h4>
+                        <p><i class="fa fa-map-marker"></i> Riaxe Systems Pvt</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <b class=""><small>Better than yesterday ( 7,5% )</small></b>
-                <div class="pull-right" id="work-progress1">
-                  <canvas style="display: inline-block; width: 47px; height: 25px; vertical-align: top;" width="47" height="25"></canvas>
+                <div class="account-status-data">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h5><strong>2,173</strong><br/>
+                        Posts</h5>
+                    </div>
+                    <div class="col-md-4">
+                      <h5><strong>14</strong><br/>
+                        Following</h5>
+                    </div>
+                    <div class="col-md-4">
+                      <h5><strong>100</strong><br/>
+                        Followers</h5>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-sm-6">
-            <div class="information blue_info">
-              <div class="information_inner">
-              <div class="info blue_symbols"><i class="fa fa-shopping-cart icon"></i></div>
-                <span>TODAY FEEDBACK</span>
-                <h1 class="bolded">12,254K</h1>
-                <div class="infoprogress_blue">
-                  <div class="blueprogress"></div>
+                <div class="user-button">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <button type="button" class=" btn btn-primary btn-rounded"><i class="fa fa-envelope"></i> Send Message</button>
+                    </div>
+                    <div class="col-sm-6">
+                      <button type="button" class="btn btn-default btn-rounded"><i class="fa fa-user"></i> Add as friend</button>
+                    </div>
+                  </div>
                 </div>
-                <b class=""><small>Better than yesterday ( 7,5% )</small></b>
-                <div class="pull-right" id="work-progress2">
-                  <canvas style="display: inline-block; width: 47px; height: 25px; vertical-align: top;" width="47" height="25"></canvas>
+                <div> <small class="">about me</small>
+                  <p>Artist</p>
+                  <small class="">info</small>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat.</p>
+                  <div class="line"></div>
+                  <p class="m-t-sm"> </p>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-sm-6">
-            <div class="information red_info">
-              <div class="information_inner">
-              <div class="info red_symbols"><i class="fa fa-comments icon"></i></div>
-                <span>TODAY EARNINGS</span>
-                <h1 class="bolded">12,254K</h1>
-                <div class="infoprogress_red">
-                  <div class="redprogress"></div>
-                </div>
-                <b class=""><small>Better than yesterday ( 7,5% )</small></b>
-                <div class="pull-right" id="work-progress3">
-                  <canvas style="display: inline-block; width: 47px; height: 25px; vertical-align: top;" width="47" height="25"></canvas>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-sm-6">
-           <div class="information gray_info">
-              <div class="information_inner">
-              <div class="info gray_symbols"><i class="fa fa-money icon"></i></div>
-                <span>TODAY VISITS </span>
-                <h1 class="bolded">12,254K</h1>
-                <div class="infoprogress_gray">
-                  <div class="grayprogress"></div>
-                </div>
-                <b class=""><small>Better than yesterday ( 7,5% )</small></b>
-                <div class="pull-right" id="work-progress4">
-                  <canvas style="display: inline-block; width: 47px; height: 25px; vertical-align: top;" width="47" height="25"></canvas>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        
-        <div class="row">
-          <div class="col-md-12">
-            <div class="block-web">
-              <div class="header">
-                <h3 class="content-header">Graph</h3>
-              </div>
-              <div class="porlets-content">
-                <div id="graph"></div>
-              </div>
-              <!--/porlets-content-->
-            </div>
-            <!--/block-web-->
-          </div>
-          <!--/col-md-12-->
-        </div>
-        <!--/row-->
-        
-        
-        
-        
-     <div class="row">
-          <div class="col-md-6">
-            <div class="multi-stat-box">
-              <div class="header">
-                <div class="left">
-                  <h2>Pageviews</h2>
-                  <a><i class="fa fa-chevron-down"></i> </a> </div>
-                <div class="right">
-                  <h2>NOV 14 - DEC 15</h2>
-                  <div class="percent"><i class="fa fa-angle-double-down"></i> 34%</div>
-                </div>
-              </div>
-              <div class="content">
-                <div class="left">
-                  <ul>
-                    <li> <span class="date">Overall</span> <span class="value">1,104</span> </li>
-                    <li class="active"> <span class="date">This week</span> <span class="value">486</span> </li>
-                    <li> <span class="date">Yesterday</span> <span class="value">364</span> </li>
-                    <li> <span class="date">Today</span> <span class="value">254</span> </li>
+                <h6><strong >CONNECTION</strong></h6>
+                <div class="">
+                  <ul class="social_icons ">
+                    <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
                   </ul>
                 </div>
-                <div class="right">
-                  <div class="sparkline" data-type="line" data-resize="true" data-height="130" data-width="90%" data-line-width="1" data-line-color="#ddd" data-spot-color="#ccc" data-fill-color="" data-highlight-line-color="#ddd" data-spot-radius="4" data-data="[200,135,667,333,526,996,564,123,890,564,455,150,530,140]"></div>
-                  <div class="ticket-lebel">SUN</div>
-                  <div class="ticket-lebel">MON</div>
-                  <div class="ticket-lebel">TUE</div>
-                  <div class="ticket-lebel">WED</div>
-                  <div class="ticket-lebel">THR</div>
-                  <div class="ticket-lebel">FRI</div>
-                  <div class="ticket-lebel">SAT</div>
-                  <div class="ticket-lebel">SUN</div>
-                </div>
               </div>
-            </div>
-            <br/>
-            <div class="panel">
-              <div class="panel-body">
-                <div class="chart">
-                  <div class="heading"> <span>June</span> <strong>15 Days | 57%</strong> </div>
-                  <div id="barchart"></div>
-                </div>
-              </div>
-              <div class="chart-tittle"> <span class="title text-muted">Total Earning</span> <span class="value-pie text-muted">$, 87,34,577</span> </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                <h4>Jaguar 'E' Type vehicles in the UK</h4>
-              </div>
-              <div class="panel-body">
-                <div id="hero-graph" class="graph"></div>
-              </div>
-            </div>
-          </div>
-        </div>   
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
- 
-		
-        <div class="row">
-          <div class="col-md-4 ">
-            <div class="block-web green-bg-color">
-              <h3 class="content-header ">Most Important Task</h3>
-              <div class="porlets-content">
-                <ul class="list-group task-list no-margin collapse in">
-                  <li class="list-group-item green-light-bg-color">
-                    <label class="label-checkbox inline">
-                    <input type="checkbox" checked="" class="task-finish">
-                    <span class="custom-checkbox"></span> </label>
-                    New frontend layout <span class="pull-right"> <a class="task-del" href="#"><i class="fa fa-times"></i></a> </span> </li>
-                  <li class="list-group-item">
-                    <label class="label-checkbox inline">
-                    <input type="checkbox" class="task-finish">
-                    <span class="custom-checkbox"></span> </label>
-                    Windows Phone App <span class="pull-right"> <a class="task-del" href="#"><i class="fa fa-times"></i></a> </span> </li>
-                  <li class="list-group-item">
-                    <label class="label-checkbox inline">
-                    <input type="checkbox" class="task-finish">
-                    <span class="custom-checkbox"></span> </label>
-                    Mobile Development <span class="pull-right"> <a class="task-del" href="#"><i class="fa fa-times"></i></a> </span> </li>
-                  <li class="list-group-item">
-                    <label class="label-checkbox inline">
-                    <input type="checkbox" class="task-finish">
-                    <span class="custom-checkbox"></span> </label>
-                    SEO Optimisation <span class="label label-warning m-left-xs">1:30PM</span> <span class="pull-right"> <a class="task-del" href="#"><i class="fa fa-times"></i></a> </span> </li>
-                  <li class="list-group-item">
-                    <label class="label-checkbox inline">
-                    <input type="checkbox" class="task-finish">
-                    <span class="custom-checkbox"></span> </label>
-                    Windows Phone App <span class="pull-right"> <a class="task-del" href="#"><i class="fa fa-times"></i></a> </span> </li>
-                  <li class="list-group-item">
-                    <label class="label-checkbox inline">
-                    <input type="checkbox" class="task-finish">
-                    <span class="custom-checkbox"></span> </label>
-                    Bug Fixes <span class="label label-danger m-left-xs">4:40PM</span> <span class="pull-right"> <a class="task-del" href="#"><i class="fa fa-times"></i></a> </span> </li>
-                  <form class="form-inline margin-top-10" role="form">
-                    <input type="text" class="form-control" placeholder="Enter tasks here...">
-                    <button class="btn btn-default btn-warning pull-right" type="submit"><i class="fa fa-plus"></i> Add Task</button>
-                  </form>
+              <!--/block-web-->
+              <section class="panel panel-default ">
+                <form >
+                  <textarea placeholder="What are you doing..." rows="3" class="form-control no-border profile_form" style="width:414px;"></textarea>
+                </form>
+                <footer class="profile_form">
+                  <button class="btn btn-info pull-right btn-sm">POST</button>
+                  <ul class="nav nav-pills nav-sm">
+                    <li><a href="#"><i class="fa fa-camera text-muted"></i></a></li>
+                    <li><a href="#"><i class="fa fa-video-camera text-muted"></i></a></li>
+                  </ul>
+                </footer>
+              </section>
+              <section class="panel panel-default profile_bg">
+                <h4 class="font-thin padder">Latest Tweets</h4>
+                <ul class="profile_list">
+                  <li class="profile_list-item">
+                    <p>Wellcome <a class="text-info" href="#">@Drew Wllon</a> and play this web application template, have fun1 </p>
+                    <small class="tweets"><i class="fa fa-clock-o"></i> 2 minuts ago</small> </li>
+                  <li class="profile_list-item">
+                    <p>Morbi nec <a class="text-info" href="#">@Jonathan George</a> nunc condimentum ipsum dolor sit amet, consectetur</p>
+                    <small class="tweets"><i class="fa fa-clock-o"></i> 1 hour ago</small> </li>
+                  <li class="profile_list-item">
+                    <p><a class="text-info" href="#">@Josh Long</a> Vestibulum ullamcorper sodales nisi nec adipiscing elit. </p>
+                    <small class="tweets"><i class="fa fa-clock-o"></i> 2 hours ago</small> </li>
                 </ul>
-                <!-- /list-group -->
-              </div>
-              <!--/porlets-content-->
+              </section>
+              <section class="panel ">
+                <div class="panel-body"> <a class=" pull-left m-r" href="#"><img src="images/pro.png" /></a> <a class="text-info" href="#">@Mike Mcalidek <i class="fa fa-twitter"></i></a> <br/>
+                  <small class="">2,415 followers / 225 tweets</small> <br/>
+                  <a class="btn btn-xs btn-success m-t-xs pull-right" href="#">Follow</a> </div>
+              </section>
             </div>
-            <!--/block-web-->
-          </div>
-          <!--/col-md-4-->
-          <div class="col-md-4 ">
-            <div class="block-web">
-              <h3 class="content-header">Note</h3>
-              <div class="block widget-notes">
-                <div contenteditable="true" class="paper"> Send e-mail to supplier<br>
-                  <s>Conference at 4 pm.</s><br>
-                  <s>Order a pizza</s><br>
-                  <s>Buy flowers</s><br>
-                  Buy some coffee.<br>
-                  Dinner at Plaza.<br>
-                  Take Alex for walk.<br>
-                  Buy some coffee.<br>
+            <!--/col-md-4-->
+            <div class="col-md-8">
+              <div class="block-web full">
+                <ul class="nav nav-tabs nav-justified nav_bg">
+                  <li class="active"><a href="#about" data-toggle="tab"><i class="fa fa-user"></i> About</a></li>
+                  <li class=""><a href="#edit-profile" data-toggle="tab"><i class="fa fa-pencil"></i> Edit</a></li>
+                  <li class=""><a href="#user-activities" data-toggle="tab"><i class="fa fa-laptop"></i> Activities</a></li>
+                  <li class=""><a href="#mymessage" data-toggle="tab"><i class="fa fa-envelope"></i> Message</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane animated fadeInRight active" id="about">
+                    <div class="user-profile-content">
+                      <h5><strong>ABOUT</strong> ME</h5>
+                      <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                      <hr>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <h5><strong>CONTACT</strong> ME</h5>
+                          <address>
+                          <strong>Phone</strong><br>
+                          <abbr title="Phone">+91 354 123 4567</abbr>
+                          </address>
+                          <address>
+                          <strong>Email</strong><br>
+                          <a href="mailto:#">first.last@example.com</a>
+                          </address>
+                          <address>
+                          <strong>Website</strong><br>
+                          <a href="http://riaxe.com">http://riaxe.com</a>
+                          </address>
+                        </div>
+                        <div class="col-sm-6">
+                          <h5><strong>MY</strong> SKILLS</h5>
+                          <p>UI Design</p>
+                          <p>Clean and Modern Web Design</p>
+                          <p>PHP and MySQL Programming</p>
+                          <p>Vector Design</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane animated fadeInRight" id="edit-profile">
+                    <div class="user-profile-content">
+                      <form role="form">
+                        <div class="form-group">
+                          <label for="FullName">Full Name</label>
+                          <input type="text" class="form-control" id="FullName" value="John Doe">
+                        </div>
+                        <div class="form-group">
+                          <label for="Email">Email</label>
+                          <input type="email" class="form-control" id="Email" value="first.last@example.com">
+                        </div>
+                        <div class="form-group">
+                          <label for="Username">Username</label>
+                          <input type="text" class="form-control" id="Username" value="john">
+                        </div>
+                        <div class="form-group">
+                          <label for="Password">Password</label>
+                          <input type="password" class="form-control" id="Password" placeholder="6 - 15 Characters">
+                        </div>
+                        <div class="form-group">
+                          <label for="RePassword">Re-Password</label>
+                          <input type="password" class="form-control" id="RePassword" placeholder="6 - 15 Characters">
+                        </div>
+                        <div class="form-group">
+                          <label for="AboutMe">About Me</label>
+                          <textarea class="form-control" id="AboutMe" style="height: 125px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="user-activities">
+                    <ul class="media-list">
+                      <li class="media"> <a href="#">
+                        <p><strong>John Doe</strong> Uploaded a photo <strong>"DSC000254.jpg"</strong> <br>
+                          <i>2 minutes ago</i></p>
+                        </a> </li>
+                      <li class="media"> <a href="#">
+                        <p><strong>Imran Tahir</strong> Created an photo album <strong>"Indonesia Tourism"</strong> <br>
+                          <i>8 minutes ago</i></p>
+                        </a> </li>
+                      <li class="media"> <a href="#">
+                        <p><strong>Colin Munro</strong> Posted an article <strong>"London never ending Asia"</strong> <br>
+                          <i>an hour ago</i></p>
+                        </a> </li>
+                      <li class="media"> <a href="#">
+                        <p><strong>Corey Anderson</strong> Added 3 products <br>
+                          <i>3 hours ago</i></p>
+                        </a> </li>
+                      <li class="media"> <a href="#">
+                        <p><strong>Morne Morkel</strong> Send you a message <strong>"Lorem ipsum dolor..."</strong> <br>
+                          <i>12 hours ago</i></p>
+                        </a> </li>
+                      <li class="media"> <a href="#">
+                        <p><strong>Imran Tahir</strong> Updated his avatar <br>
+                          <i>Yesterday</i></p>
+                        </a> </li>
+                    </ul>
+                  </div>
+                  <div class="tab-pane" id="mymessage">
+                    <ul class="media-list">
+                      <li class="media"> <a class="pull-left" href="#"><img src="images/gg.png" /></a>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#fakelink">John Doe</a> <small>Just now</small></h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                      </li>
+                      <li class="media"> <a class="pull-left" href="#"><img src="images/gg.png" /></a>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#fakelink">Tim Southee</a> <small>Yesterday at 04:00 AM</small></h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus</p>
+                        </div>
+                      </li>
+                      <li class="media"> <a class="pull-left" href="#"><img src="images/gg.png" /></a>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#fakelink">Kane Williamson</a> <small>January 17, 2014 05:35 PM</small></h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                      </li>
+                      <li class="media"> <a class="pull-left" href="#"><img src="images/gg.png" /></a>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#fakelink">Lonwabo Tsotsobe</a> <small>January 17, 2014 05:35 PM</small></h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                      </li>
+                      <li class="media"> <a class="pull-left" href="#"><img src="images/gg.png" /></a>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#fakelink">Dale Steyn</a> <small>January 17, 2014 05:35 PM</small></h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                      </li>
+                      <li class="media"> <a class="pull-left" href="#"><img src="images/gg.png" /></a>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#fakelink">John Doe</a> <small>Just now</small></h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
+                <!--/tab-content-->
               </div>
-              <!--/widget-notes-->
+              <!--/block-web-->
             </div>
-            <!--/block-web-->
+            <!--/col-md-8-->
           </div>
-          <!--/col-md-4 -->
-          <div class="col-md-4 ">
-            <div class="kalendar"></div>
-            <div class="list-group"> <a class="list-group-item" href="#"> <span class="badge bg-danger">7:50</span> Consectetuer </a> <a class="list-group-item" href="#"> <span class="badge bg-success">10:30</span> Lorem ipsum dolor sit amet </a> <a class="list-group-item" href="#"> <span class="badge bg-light">11:40</span> Consectetuer adipiscing </a> </div>
-            <!--/calendar end-->
-          </div>
-          <!--/col-md-4 end-->
+          <!--/row-->
         </div>
-        <!--/row end-->
-        
-        
-        
-        
-        
-         <!--row start-->
-        <div class="row">        
-          <div class="col-md-8">
-        <div class="block-web">
-          <h3 class="content-header"> Quick Stats
-            <div class="button-group pull-right" data-toggle="buttons"> <a href="javascript:;" class="btn active border-gray right-margin"> <span class="button-content">
-              
-              Top this week </span> </a> <a href="javascript:;" class="btn border-gray right-margin"> <span class="button-content">
-          
-              Refering </span> </a> <a href="javascript:;" class="btn border-gray"> <span class="button-content">
-             
-              Others </span> </a> 
-            </div><!--/button-group-->
-          </h3>
-          <div class="custom-bar-chart">
-            <ul class="y-axis">
-              <li><span>100</span></li>
-              <li><span>80</span></li>
-              <li><span>60</span></li>
-              <li><span>40</span></li>
-              <li><span>20</span></li>
-              <li><span>0</span></li>
-            </ul>
-            <div class="bar">
-              <div class="value tooltips" data-original-title="30%" data-toggle="tooltip" data-placement="top">30%</div>
-              <div class="title">Jan</div>
-            </div><!--/bar-->
-            <div class="bar">
-              <div class="value tooltips bar-bg-color" data-original-title="50%" data-toggle="tooltip" data-placement="top">50%</div>
-              <div class="title">Fab</div>
-            </div><!--/bar-->
-            <div class="bar ">
-              <div class="value tooltips" data-original-title="40%" data-toggle="tooltip" data-placement="top">40%</div>
-              <div class="title">Mar</div>
-            </div><!--/bar-->
-            <div class="bar ">
-              <div class="value tooltips" data-original-title="80%" data-toggle="tooltip" data-placement="top">80%</div>
-              <div class="title">Apr</div>
-            </div><!--/bar-->
-            <div class="bar">
-              <div class="value tooltips bar-bg-color" data-original-title="70%" data-toggle="tooltip" data-placement="top">70%</div>
-              <div class="title">May</div>
-            </div><!--/bar-->
-            <div class="bar ">
-              <div class="value tooltips" data-original-title="50%" data-toggle="tooltip" data-placement="top">50%</div>
-              <div class="title">Jun</div>
-            </div><!--/bar-->
-            <div class="bar">
-              <div class="value tooltips" data-original-title="40%" data-toggle="tooltip" data-placement="top">40%</div>
-              <div class="title">Jul</div>
-            </div><!--/bar-->
-            <div class="bar">
-              <div class="value tooltips" data-original-title="35%" data-toggle="tooltip" data-placement="top">35%</div>
-              <div class="title">Aug</div>
-            </div><!--/bar-->
-            
-            <div class="bar ">
-              <div class="value tooltips" data-original-title="80%" data-toggle="tooltip" data-placement="top">80%</div>
-              <div class="title">Sep</div>
-            </div><!--/bar-->
-            <div class="bar">
-              <div class="value tooltips bar-bg-color" data-original-title="70%" data-toggle="tooltip" data-placement="top">70%</div>
-              <div class="title">Oct</div>
-            </div><!--/bar-->
-            <div class="bar ">
-              <div class="value tooltips" data-original-title="50%" data-toggle="tooltip" data-placement="top">50%</div>
-              <div class="title">Nov</div>
-            </div><!--/bar-->
-            <div class="bar">
-              <div class="value tooltips" data-original-title="40%" data-toggle="tooltip" data-placement="top">40%</div>
-              <div class="title">Dec</div>
-            </div><!--/bar-->
-
-            
-          </div>
-          <!--/custom-bar-chart-->
-        </div><!--/block-web-->
-      </div><!--/col-md-8-->
-      
-        <div class="col-md-4">
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                <h4>Donut flavours</h4>
-              </div>
-              <div class="panel-body">
-                <div id="hero-donut" class="graph"></div>
-              </div>
-            </div>
-          </div>
-      
-      
-      
-        </div>
-        <!--row end--> 
- 
-        
       </div>
       <!--\\\\\\\ container  end \\\\\\-->
     </div>
@@ -593,8 +480,6 @@
     </div>
   </div>
 </div>
-
-
 <!-- sidebar chats -->
 <nav class="atm-spmenu atm-spmenu-vertical atm-spmenu-right side-chat">
 	<div class="header">
@@ -673,74 +558,6 @@
 
 
 
-
-
-<!-- sidebar chats -->
-<nav class="atm-spmenu atm-spmenu-vertical atm-spmenu-right side-chat">
-	<div class="header">
-    <input type="text" class="form-control chat-search" placeholder=" Search">
-  </div>
-  <div href="#" class="sub-header">
-    <div class="icon"><i class="fa fa-user"></i></div> <p>Online (4)</p>
-  </div>
-  <div class="content">
-    <p class="title">Family</p>
-    <ul class="nav nav-pills nav-stacked contacts">
-      <li class="online"><a href="#"><i class="fa fa-circle-o"></i> Steven Smith</a></li>
-      <li class="online"><a href="#"><i class="fa fa-circle-o"></i> John Doe</a></li>
-      <li class="online"><a href="#"><i class="fa fa-circle-o"></i> Michael Smith</a></li>
-      <li class="busy"><a href="#"><i class="fa fa-circle-o"></i> Chris Rogers</a></li>
-    </ul>
-    
-    <p class="title">Friends</p>
-    <ul class="nav nav-pills nav-stacked contacts">
-      <li class="online"><a href="#"><i class="fa fa-circle-o"></i> Vernon Philander</a></li>
-      <li class="outside"><a href="#"><i class="fa fa-circle-o"></i> Kyle Abbott</a></li>
-      <li><a href="#"><i class="fa fa-circle-o"></i> Dean Elgar</a></li>
-    </ul>   
-    
-    <p class="title">Work</p>
-    <ul class="nav nav-pills nav-stacked contacts">
-      <li><a href="#"><i class="fa fa-circle-o"></i> Dale Steyn</a></li>
-      <li><a href="#"><i class="fa fa-circle-o"></i> Morne Morkel</a></li>
-    </ul>
-    
-  </div>
-  <div id="chat-box">
-    <div class="header">
-      <span>Richard Avedon</span>
-      <a class="close"><i class="fa fa-times"></i></a>    </div>
-    <div class="messages nano nscroller has-scrollbar">
-      <div class="content" tabindex="0" style="right: -17px;">
-        <ul class="conversation">
-          <li class="odd">
-            <p>Hi John, how are you?</p>
-          </li>
-          <li class="text-right">
-            <p>Hello I am also fine</p>
-          </li>
-          <li class="odd">
-            <p>Tell me what about you?</p>
-          </li>
-          <li class="text-right">
-            <p>Sorry, I'm late... see you</p>
-          </li>
-          <li class="odd unread">
-            <p>OK, call me later...</p>
-          </li>
-        </ul>
-      </div>
-    <div class="pane" style="display: none;"><div class="slider" style="height: 20px; top: 0px;"></div></div></div>
-    <div class="chat-input">
-      <div class="input-group">
-        <input type="text" placeholder="Enter a message..." class="form-control">
-        <span class="input-group-btn">
-        <button class="btn btn-danger" type="button">Send</button>
-        </span>      </div>
-    </div>
-  </div>
-</nav>
-<!-- /sidebar chats -->   
 
 
 
@@ -758,37 +575,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/common-script.js"></script>
 <script src="js/jquery.slimscroll.min.js"></script>
-<script src="js/jquery.sparkline.js"></script>
-<script src="js/sparkline-chart.js"></script>
-<script src="js/graph.js"></script>
-<script src="js/edit-graph.js"></script>
-<script src="plugins/kalendar/kalendar.js" type="text/javascript"></script>
-<script src="plugins/kalendar/edit-kalendar.js" type="text/javascript"></script>
-
-<script src="plugins/sparkline/jquery.sparkline.js" type="text/javascript"></script>
-<script src="plugins/sparkline/jquery.customSelect.min.js" ></script> 
-<script src="plugins/sparkline/sparkline-chart.js"></script> 
-<script src="plugins/sparkline/easy-pie-chart.js"></script>
-<script src="plugins/morris/morris.min.js" type="text/javascript"></script> 
-<script src="plugins/morris/raphael-min.js" type="text/javascript"></script>  
-<script src="plugins/morris/morris-script.js"></script> 
-
-
-
-
-
-<script src="plugins/demo-slider/demo-slider.js"></script>
-<script src="plugins/knob/jquery.knob.min.js"></script> 
-
-
-
-
 <script src="js/jPushMenu.js"></script> 
 <script src="js/side-chats.js"></script>
-<script src="js/jquery.slimscroll.min.js"></script>
-<script src="plugins/scroll/jquery.nanoscroller.js"></script>
-
-
-
 </body>
 </html>

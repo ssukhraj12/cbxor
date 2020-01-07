@@ -2,17 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Admin Dashboard Template</title>
+<title>ULTIMO Admin Dashboard Template</title>
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="css/animate.css" rel="stylesheet" type="text/css" />
 <link href="css/admin.css" rel="stylesheet" type="text/css" />
-<link href="css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-<link href="plugins/kalendar/kalendar.css" rel="stylesheet">
-<link rel="stylesheet" href="plugins/scroll/nanoscroller.css">
-<link href="plugins/morris/morris.css" rel="stylesheet" />
 </head>
 <body class="light_theme  fixed_header left_nav_fixed">
 <div class="wrapper">
@@ -21,7 +16,7 @@
     <!--\\\\\\\ header Start \\\\\\-->
     <div class="brand">
       <!--\\\\\\\ brand Start \\\\\\-->
-      <div class="logo" style="display:block"><span class="theme_color">Super</span> Admin</div>
+      <div class="logo" style="display:block"><span class="theme_color">ULTIMO</span> Admin</div>
       <div class="small_logo" style="display:none"><img src="images/s-logo.png" width="50" height="47" alt="s-logo" /> <img src="images/r-logo.png" width="122" height="20" alt="r-logo" /></div>
     </div>
     <!--\\\\\\\ brand end \\\\\\-->
@@ -31,20 +26,8 @@
       <div class="top_left">
         <div class="top_left_menu">
           <ul>
-            <li> <a href="javascript:void(0);"><i class="fa fa-repeat"></i></a> </li>
-            <li class="dropdown"> <a data-toggle="dropdown" href="javascript:void(0);"> <i class="fa fa-th-large"></i> </a>
-			<ul class="drop_down_task dropdown-menu" style="margin-top:39px">
-				<div class="top_left_pointer"></div>
-				<li><div class="checkbox">
-                  <label>
-                    <input type="checkbox" name="remember">
-                    Remember me </label>
-                </div></li>
-				<li> <a href="help.php"><i class="fa fa-question-circle"></i> Help</a> </li>
-				<li> <a href="settings.php"><i class="fa fa-cog"></i> Setting </a></li>
-				<li> <a href="login.php"><i class="fa fa-power-off"></i> Logout</a> </li>
-		  </ul>
-			</li>
+            <li> <a href="javascript:void(0);"> <i class="fa fa-repeat"></i> </a> </li>
+            <li> <a href="javascript:void(0);"> <i class="fa fa-th-large"></i> </a> </li>
           </ul>
         </div>
       </div>
@@ -118,26 +101,24 @@
             <li> <a href="login.php"><i class="fa fa-power-off"></i> Logout</a> </li>
           </ul>
         </div>
-
         <a href="javascript:;" class="toggle-menu menu-right push-body jPushMenuBtn rightbar-switch"><i class="fa fa-comment chat"></i></a>
-        
       </div>
     </div>
     <!--\\\\\\\ header top bar end \\\\\\-->
   </div>
   <!--\\\\\\\ header end \\\\\\-->
   <div class="inner">
-    <!--\\\\\\\ inner start \\\\\\--><div class="left_nav">
-
+    <!--\\\\\\\ inner start \\\\\\-->
+    <div class="left_nav">
       <!--\\\\\\\left_nav start \\\\\\-->
       <div class="search_bar"> <i class="fa fa-search"></i>
         <input name="" type="text" class="search" placeholder="Search Dashboard..." />
       </div>
       <div class="left_nav_slidebar">
         <ul>
-          <li class="left_nav_active theme_border"><a href="javascript:void(0);"><i class="fa fa-home"></i> DASHBOARD <span class="left_nav_pointer"></span> <span class="plus"><i class="fa fa-plus"></i></span> </a>
-            <ul class="opened" style="display:block">
-              <li> <a href="index.html"> <span>&nbsp;</span> <i class="fa fa-circle theme_color"></i> <b class="theme_color">Dashboard</b> </a> </li>
+          <li><a href="javascript:void(0);"><i class="fa fa-home"></i> DASHBOARD <span class="left_nav_pointer"></span> <span class="plus"><i class="fa fa-plus"></i></span> </a>
+            <ul>
+              <li> <a href="index.php" class="left_nav_sub_active"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Dashboard</b> </a> </li>
               <li> <a href="settings.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Settings</b> </a> </li>
               <li> <a href="layouts.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Layouts</b> </a> </li>
               <li> <a href="themes.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Themes</b> </a> </li>
@@ -145,23 +126,25 @@
               <li> <a href="animations.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Animations</b> </a> </li>
             </ul>
           </li>
-          <li> <a href="javascript:void(0);"> <i class="fa fa-edit"></i> UI KIT <span class="plus"><i class="fa fa-plus"></i></span></a>
-            <ul>
+          <li class="left_nav_active theme_border"> <a href="javascript:void(0);"> <i class="fa fa-edit"></i> UI KIT <span class="plus"><i class="fa fa-plus"></i></span></a>
+            <ul class="opened" style="display:block">
               <li> <a href="typography.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Typography</b> </a> </li>
               <li> <a href="buttons.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Buttons</b> </a> </li>
               <li> <a href="icons.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Icons</b> </a> </li>
               <li> <a href="grid.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Grid</b> </a> </li>
+              
               <li> <a href="alert.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Alert & Notification</b> </a> </li>
-              <li> <a href="tabs.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Tabs & Accordion</b> </a> </li>
+              <li> <a href="tabs.php"> <span>&nbsp;</span> <i class="fa fa-circle theme_color"></i> <b class="theme_color">Tabs & Accordion</b> </a> </li>
               <li> <a href="tree.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Tree View</b> </a> </li>
               <li> <a href="list.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>List Group</b> </a> </li>
               <li> <a href="portlets.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Portlets</b> </a> </li>
               <li> <a href="general.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>General</b> </a> </li>
             </ul>
           </li>
+          
           <li> <a href="javascript:void(0);"> <i class="fa fa-tasks"></i> Forms <span class="plus"><i class="fa fa-plus"></i></span></a>
             <ul>
-              <li> <a href="components.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Components</b> </a> </li>
+                            <li> <a href="components.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Components</b> </a> </li>
               <li> <a href="validation.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Validation</b> </a> </li>
               <li> <a href="multi-upload.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Multi-upload</b> </a> </li>
               <li> <a href="other-forms.php"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Others</b> </a> </li>
@@ -222,352 +205,240 @@
       <!--\\\\\\\ contentpanel start\\\\\\-->
       <div class="pull-left breadcrumb_admin clear_both">
         <div class="pull-left page_title theme_color">
-          <h1>Dashboard</h1>
+          <h1>Tabs & Accordion</h1>
           <h2 class="">Subtitle goes here...</h2>
         </div>
         <div class="pull-right">
           <ol class="breadcrumb">
             <li><a href="#">Home</a></li>
-            <li><a href="#">DASHBOARD</a></li>
-            <li class="active">Dashboard</li>
+            <li><a href="#">UI KIT</a></li>
+            <li class="active">Tabs & Accordion</li>
           </ol>
         </div>
       </div>
       <div class="container clear_both padding_fix">
         <!--\\\\\\\ container  start \\\\\\-->
         <div class="row">
-          <div class="col-sm-3 col-sm-6">
-            <div class="information green_info">   
-              <div class="information_inner">
-              	<div class="info green_symbols"><i class="fa fa-users icon"></i></div>
-                <span>TODAY SALES </span>
-                <h1 class="bolded">12,254K</h1>
-                <div class="infoprogress_green">
-                  <div class="greenprogress"></div>
-                </div>
-                <b class=""><small>Better than yesterday ( 7,5% )</small></b>
-                <div class="pull-right" id="work-progress1">
-                  <canvas style="display: inline-block; width: 47px; height: 25px; vertical-align: top;" width="47" height="25"></canvas>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-sm-6">
-            <div class="information blue_info">
-              <div class="information_inner">
-              <div class="info blue_symbols"><i class="fa fa-shopping-cart icon"></i></div>
-                <span>TODAY FEEDBACK</span>
-                <h1 class="bolded">12,254K</h1>
-                <div class="infoprogress_blue">
-                  <div class="blueprogress"></div>
-                </div>
-                <b class=""><small>Better than yesterday ( 7,5% )</small></b>
-                <div class="pull-right" id="work-progress2">
-                  <canvas style="display: inline-block; width: 47px; height: 25px; vertical-align: top;" width="47" height="25"></canvas>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-sm-6">
-            <div class="information red_info">
-              <div class="information_inner">
-              <div class="info red_symbols"><i class="fa fa-comments icon"></i></div>
-                <span>TODAY EARNINGS</span>
-                <h1 class="bolded">12,254K</h1>
-                <div class="infoprogress_red">
-                  <div class="redprogress"></div>
-                </div>
-                <b class=""><small>Better than yesterday ( 7,5% )</small></b>
-                <div class="pull-right" id="work-progress3">
-                  <canvas style="display: inline-block; width: 47px; height: 25px; vertical-align: top;" width="47" height="25"></canvas>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-sm-6">
-           <div class="information gray_info">
-              <div class="information_inner">
-              <div class="info gray_symbols"><i class="fa fa-money icon"></i></div>
-                <span>TODAY VISITS </span>
-                <h1 class="bolded">12,254K</h1>
-                <div class="infoprogress_gray">
-                  <div class="grayprogress"></div>
-                </div>
-                <b class=""><small>Better than yesterday ( 7,5% )</small></b>
-                <div class="pull-right" id="work-progress4">
-                  <canvas style="display: inline-block; width: 47px; height: 25px; vertical-align: top;" width="47" height="25"></canvas>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        
-        <div class="row">
-          <div class="col-md-12">
-            <div class="block-web">
-              <div class="header">
-                <h3 class="content-header">Graph</h3>
-              </div>
-              <div class="porlets-content">
-                <div id="graph"></div>
-              </div>
-              <!--/porlets-content-->
-            </div>
-            <!--/block-web-->
-          </div>
-          <!--/col-md-12-->
-        </div>
-        <!--/row-->
-        
-        
-        
-        
-     <div class="row">
-          <div class="col-md-6">
-            <div class="multi-stat-box">
-              <div class="header">
-                <div class="left">
-                  <h2>Pageviews</h2>
-                  <a><i class="fa fa-chevron-down"></i> </a> </div>
-                <div class="right">
-                  <h2>NOV 14 - DEC 15</h2>
-                  <div class="percent"><i class="fa fa-angle-double-down"></i> 34%</div>
-                </div>
-              </div>
-              <div class="content">
-                <div class="left">
-                  <ul>
-                    <li> <span class="date">Overall</span> <span class="value">1,104</span> </li>
-                    <li class="active"> <span class="date">This week</span> <span class="value">486</span> </li>
-                    <li> <span class="date">Yesterday</span> <span class="value">364</span> </li>
-                    <li> <span class="date">Today</span> <span class="value">254</span> </li>
-                  </ul>
-                </div>
-                <div class="right">
-                  <div class="sparkline" data-type="line" data-resize="true" data-height="130" data-width="90%" data-line-width="1" data-line-color="#ddd" data-spot-color="#ccc" data-fill-color="" data-highlight-line-color="#ddd" data-spot-radius="4" data-data="[200,135,667,333,526,996,564,123,890,564,455,150,530,140]"></div>
-                  <div class="ticket-lebel">SUN</div>
-                  <div class="ticket-lebel">MON</div>
-                  <div class="ticket-lebel">TUE</div>
-                  <div class="ticket-lebel">WED</div>
-                  <div class="ticket-lebel">THR</div>
-                  <div class="ticket-lebel">FRI</div>
-                  <div class="ticket-lebel">SAT</div>
-                  <div class="ticket-lebel">SUN</div>
-                </div>
-              </div>
-            </div>
-            <br/>
-            <div class="panel">
+          <div class="col-lg-6">
+            <section class="panel default blue_title h2">
+              <div class="panel-heading">Default<span class="semi-bold"> Tabs</span> </div>
               <div class="panel-body">
-                <div class="chart">
-                  <div class="heading"> <span>June</span> <strong>15 Days | 57%</strong> </div>
-                  <div id="barchart"></div>
-                </div>
-              </div>
-              <div class="chart-tittle"> <span class="title text-muted">Total Earning</span> <span class="value-pie text-muted">$, 87,34,577</span> </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                <h4>Jaguar 'E' Type vehicles in the UK</h4>
-              </div>
-              <div class="panel-body">
-                <div id="hero-graph" class="graph"></div>
-              </div>
-            </div>
-          </div>
-        </div>   
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
- 
-		
-        <div class="row">
-          <div class="col-md-4 ">
-            <div class="block-web green-bg-color">
-              <h3 class="content-header ">Most Important Task</h3>
-              <div class="porlets-content">
-                <ul class="list-group task-list no-margin collapse in">
-                  <li class="list-group-item green-light-bg-color">
-                    <label class="label-checkbox inline">
-                    <input type="checkbox" checked="" class="task-finish">
-                    <span class="custom-checkbox"></span> </label>
-                    New frontend layout <span class="pull-right"> <a class="task-del" href="#"><i class="fa fa-times"></i></a> </span> </li>
-                  <li class="list-group-item">
-                    <label class="label-checkbox inline">
-                    <input type="checkbox" class="task-finish">
-                    <span class="custom-checkbox"></span> </label>
-                    Windows Phone App <span class="pull-right"> <a class="task-del" href="#"><i class="fa fa-times"></i></a> </span> </li>
-                  <li class="list-group-item">
-                    <label class="label-checkbox inline">
-                    <input type="checkbox" class="task-finish">
-                    <span class="custom-checkbox"></span> </label>
-                    Mobile Development <span class="pull-right"> <a class="task-del" href="#"><i class="fa fa-times"></i></a> </span> </li>
-                  <li class="list-group-item">
-                    <label class="label-checkbox inline">
-                    <input type="checkbox" class="task-finish">
-                    <span class="custom-checkbox"></span> </label>
-                    SEO Optimisation <span class="label label-warning m-left-xs">1:30PM</span> <span class="pull-right"> <a class="task-del" href="#"><i class="fa fa-times"></i></a> </span> </li>
-                  <li class="list-group-item">
-                    <label class="label-checkbox inline">
-                    <input type="checkbox" class="task-finish">
-                    <span class="custom-checkbox"></span> </label>
-                    Windows Phone App <span class="pull-right"> <a class="task-del" href="#"><i class="fa fa-times"></i></a> </span> </li>
-                  <li class="list-group-item">
-                    <label class="label-checkbox inline">
-                    <input type="checkbox" class="task-finish">
-                    <span class="custom-checkbox"></span> </label>
-                    Bug Fixes <span class="label label-danger m-left-xs">4:40PM</span> <span class="pull-right"> <a class="task-del" href="#"><i class="fa fa-times"></i></a> </span> </li>
-                  <form class="form-inline margin-top-10" role="form">
-                    <input type="text" class="form-control" placeholder="Enter tasks here...">
-                    <button class="btn btn-default btn-warning pull-right" type="submit"><i class="fa fa-plus"></i> Add Task</button>
-                  </form>
+                <ul class="nav nav-tabs" id="myTab">
+                  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                  <li><a data-toggle="tab" href="#profile">Profile</a></li>
+                  <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" id="myTabDrop1" href="#">Dropdown <b class="caret"></b></a>
+                    <ul aria-labelledby="myTabDrop1" role="menu" class="dropdown-menu">
+                      <li><a data-toggle="tab" tabindex="-1" href="#dropdown1">@fat</a></li>
+                      <li><a data-toggle="tab" tabindex="-1" href="#dropdown2">@mdo</a></li>
+                    </ul>
+                  </li>
                 </ul>
-                <!-- /list-group -->
-              </div>
-              <!--/porlets-content-->
-            </div>
-            <!--/block-web-->
-          </div>
-          <!--/col-md-4-->
-          <div class="col-md-4 ">
-            <div class="block-web">
-              <h3 class="content-header">Note</h3>
-              <div class="block widget-notes">
-                <div contenteditable="true" class="paper"> Send e-mail to supplier<br>
-                  <s>Conference at 4 pm.</s><br>
-                  <s>Order a pizza</s><br>
-                  <s>Buy flowers</s><br>
-                  Buy some coffee.<br>
-                  Dinner at Plaza.<br>
-                  Take Alex for walk.<br>
-                  Buy some coffee.<br>
+                <div class="tab-content" id="myTabContent">
+                  <div id="home" class="tab-pane fade in active">
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                  </div>
+                  <div id="profile" class="tab-pane fade">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                  </div>
+                  <div id="dropdown1" class="tab-pane fade">
+                    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                  </div>
+                  <div id="dropdown2" class="tab-pane fade">
+                    <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
+                  </div>
                 </div>
               </div>
-              <!--/widget-notes-->
-            </div>
-            <!--/block-web-->
+            </section>
           </div>
-          <!--/col-md-4 -->
-          <div class="col-md-4 ">
-            <div class="kalendar"></div>
-            <div class="list-group"> <a class="list-group-item" href="#"> <span class="badge bg-danger">7:50</span> Consectetuer </a> <a class="list-group-item" href="#"> <span class="badge bg-success">10:30</span> Lorem ipsum dolor sit amet </a> <a class="list-group-item" href="#"> <span class="badge bg-light">11:40</span> Consectetuer adipiscing </a> </div>
-            <!--/calendar end-->
-          </div>
-          <!--/col-md-4 end-->
-        </div>
-        <!--/row end-->
-        
-        
-        
-        
-        
-         <!--row start-->
-        <div class="row">        
-          <div class="col-md-8">
-        <div class="block-web">
-          <h3 class="content-header"> Quick Stats
-            <div class="button-group pull-right" data-toggle="buttons"> <a href="javascript:;" class="btn active border-gray right-margin"> <span class="button-content">
-              
-              Top this week </span> </a> <a href="javascript:;" class="btn border-gray right-margin"> <span class="button-content">
-          
-              Refering </span> </a> <a href="javascript:;" class="btn border-gray"> <span class="button-content">
-             
-              Others </span> </a> 
-            </div><!--/button-group-->
-          </h3>
-          <div class="custom-bar-chart">
-            <ul class="y-axis">
-              <li><span>100</span></li>
-              <li><span>80</span></li>
-              <li><span>60</span></li>
-              <li><span>40</span></li>
-              <li><span>20</span></li>
-              <li><span>0</span></li>
-            </ul>
-            <div class="bar">
-              <div class="value tooltips" data-original-title="30%" data-toggle="tooltip" data-placement="top">30%</div>
-              <div class="title">Jan</div>
-            </div><!--/bar-->
-            <div class="bar">
-              <div class="value tooltips bar-bg-color" data-original-title="50%" data-toggle="tooltip" data-placement="top">50%</div>
-              <div class="title">Fab</div>
-            </div><!--/bar-->
-            <div class="bar ">
-              <div class="value tooltips" data-original-title="40%" data-toggle="tooltip" data-placement="top">40%</div>
-              <div class="title">Mar</div>
-            </div><!--/bar-->
-            <div class="bar ">
-              <div class="value tooltips" data-original-title="80%" data-toggle="tooltip" data-placement="top">80%</div>
-              <div class="title">Apr</div>
-            </div><!--/bar-->
-            <div class="bar">
-              <div class="value tooltips bar-bg-color" data-original-title="70%" data-toggle="tooltip" data-placement="top">70%</div>
-              <div class="title">May</div>
-            </div><!--/bar-->
-            <div class="bar ">
-              <div class="value tooltips" data-original-title="50%" data-toggle="tooltip" data-placement="top">50%</div>
-              <div class="title">Jun</div>
-            </div><!--/bar-->
-            <div class="bar">
-              <div class="value tooltips" data-original-title="40%" data-toggle="tooltip" data-placement="top">40%</div>
-              <div class="title">Jul</div>
-            </div><!--/bar-->
-            <div class="bar">
-              <div class="value tooltips" data-original-title="35%" data-toggle="tooltip" data-placement="top">35%</div>
-              <div class="title">Aug</div>
-            </div><!--/bar-->
-            
-            <div class="bar ">
-              <div class="value tooltips" data-original-title="80%" data-toggle="tooltip" data-placement="top">80%</div>
-              <div class="title">Sep</div>
-            </div><!--/bar-->
-            <div class="bar">
-              <div class="value tooltips bar-bg-color" data-original-title="70%" data-toggle="tooltip" data-placement="top">70%</div>
-              <div class="title">Oct</div>
-            </div><!--/bar-->
-            <div class="bar ">
-              <div class="value tooltips" data-original-title="50%" data-toggle="tooltip" data-placement="top">50%</div>
-              <div class="title">Nov</div>
-            </div><!--/bar-->
-            <div class="bar">
-              <div class="value tooltips" data-original-title="40%" data-toggle="tooltip" data-placement="top">40%</div>
-              <div class="title">Dec</div>
-            </div><!--/bar-->
-
-            
-          </div>
-          <!--/custom-bar-chart-->
-        </div><!--/block-web-->
-      </div><!--/col-md-8-->
-      
-        <div class="col-md-4">
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                <h4>Donut flavours</h4>
-              </div>
+          <div class="col-lg-6">
+            <section class="panel default blue_title h2">
+              <div class="panel-heading">portlet<span class="semi-bold"> Tabs</span> </div>
               <div class="panel-body">
-                <div id="hero-donut" class="graph"></div>
+                <ul class="nav nav-tabs" id="myTab">
+                  <li class="active"><a data-toggle="tab" href="#Tab1">Tab1</a></li>
+                  <li><a data-toggle="tab" href="#Tab2">Tab2</a></li>
+                  <li><a data-toggle="tab" href="#Tab3">Tab3</a></li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div id="Tab1" class="tab-pane fade in active">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                  </div>
+                  <div id="Tab2" class="tab-pane fade">
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                  </div>
+                  <div id="Tab3" class="tab-pane fade">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <section class="panel default blue_title h2">
+              <div class="panel-heading">Left<span class="semi-bold"> Tabs</span> </div>
+              <div class="panel-body">
+                <div class="tabs_right">
+                  <ul class="nav nav-tabs" id="myTab">
+                    <li class="active"><a data-toggle="tab" href="#Section1">Section1</a></li>
+                    <li><a data-toggle="tab" href="#Section2">Section2</a></li>
+                    <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" id="myTabDrop1" href="#">Dropdown <b class="caret"></b></a>
+                      <ul aria-labelledby="myTabDrop1" role="menu" class="dropdown-menu">
+                        <li><a data-toggle="tab" tabindex="-1" href="#dropdown3">@fat</a></li>
+                        <li><a data-toggle="tab" tabindex="-1" href="#dropdown4">@mdo</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div id="Section1" class="tab-pane fade in active">
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                    </div>
+                    <div id="Section2" class="tab-pane fade">
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                    </div>
+                    <div id="dropdown3" class="tab-pane fade">
+                      <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                    </div>
+                    <div id="dropdown4" class="tab-pane fade">
+                      <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="col-lg-6">
+            <section class="panel default blue_title h2">
+              <div class="panel-heading">Right<span class="semi-bold"> Tabs</span> </div>
+              <div class="panel-body">
+                <div class="tabs_left">
+                  <ul class="nav nav-tabs" id="myTab">
+                    <li class="active"><a data-toggle="tab" href="#Section3">Section3</a></li>
+                    <li><a data-toggle="tab" href="#Section4">Section4</a></li>
+                    <li><a data-toggle="tab" href="#Section5">Section5</a></li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div id="Section3" class="tab-pane fade in active">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                    </div>
+                    <div id="Section4" class="tab-pane fade">
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                    </div>
+                    <div id="Section5" class="tab-pane fade">
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="row">
+          <div class="col-lg-6">
+            <section class="panel default blue_title h2">
+              <div class="panel-heading">Basic <span class="semi-bold">Accordion</span> </div>
+              <div class="panel-body">
+               
+               <div class="panel-group accordion accordion-semi" id="accordion3">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#ac3-1"> <i class="fa fa-angle-right"></i> Semi-primary Accordion </a> </h4>
+                </div>
+                <div style="height: 0px;" id="ac3-1" class="panel-collapse collapse">
+                  <div class="panel-body"> Etiam euismod diam justo, quis luctus leo commodo et. Sed pretium est sit amet ligula consequat, sed suscipit arcu rhoncus. Sed bibendum posuere tincidunt. </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#ac3-2"> <i class="fa fa-angle-right"></i> Collapsible Group Item #2 </a> </h4>
+                </div>
+                <div id="ac3-2" class="panel-collapse collapse" style="height: 0px;">
+                  <div class="panel-body"> In vel mi porta, bibendum nulla et, scelerisque lacus. Morbi pellentesque interdum blandit. In consequat tempus pharetra. </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#ac3-3"> <i class="fa fa-angle-right"></i> Collapsible Group Item #3 </a> </h4>
+                </div>
+                <div id="ac3-3" class="panel-collapse collapse">
+                  <div class="panel-body">Etiam euismod diam justo, quis luctus leo commodo et. Sed pretium est sit amet ligula consequat, sed suscipit arcu rhoncus. </div>
+                </div>
               </div>
             </div>
+               
+              </div>
+            </section>
           </div>
-      
-      
-      
+          <div class="col-lg-6">
+            <section class="panel default blue_title h2">
+              <div class="panel-heading">Basic <span class="semi-bold"> Accordion</span> </div>
+              <div class="panel-body">
+                
+                
+                
+                <div id="accordion" class="panel-group  accordion accordion-color">
+      <div class="panel panel-default">
+        <div class="panel-heading success">
+          <h4 class="panel-title ">
+            <a href="#collapse4" data-parent="#accordion" data-toggle="collapse" class="">
+              Collapsible Group Item #1
+            </a>
+          </h4>
         </div>
-        <!--row end--> 
- 
+        <div class="panel-collapse collapse in" id="collapse4" style="height: auto;">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading yellow">
+          <h4 class="panel-title">
+            <a href="#collapse5" data-parent="#accordion" data-toggle="collapse" class="collapsed">
+              Collapsible Group Item #2
+            </a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse5" style="height: 0px;">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading blue">
+          <h4 class="panel-title">
+            <a href="#collapse6" data-parent="#accordion" data-toggle="collapse" class="collapsed">
+              Collapsible Group Item #3
+            </a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse6" style="height: 0px;">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
+                
+                
+              </div>
+            </section>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        
         
       </div>
       <!--\\\\\\\ container  end \\\\\\-->
@@ -593,8 +464,21 @@
     </div>
   </div>
 </div>
-
-
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Compose New Task</h4>
+      </div>
+      <div class="modal-body"> sgxdfgxfg </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- sidebar chats -->
 <nav class="atm-spmenu atm-spmenu-vertical atm-spmenu-right side-chat">
 	<div class="header">
@@ -673,74 +557,6 @@
 
 
 
-
-
-<!-- sidebar chats -->
-<nav class="atm-spmenu atm-spmenu-vertical atm-spmenu-right side-chat">
-	<div class="header">
-    <input type="text" class="form-control chat-search" placeholder=" Search">
-  </div>
-  <div href="#" class="sub-header">
-    <div class="icon"><i class="fa fa-user"></i></div> <p>Online (4)</p>
-  </div>
-  <div class="content">
-    <p class="title">Family</p>
-    <ul class="nav nav-pills nav-stacked contacts">
-      <li class="online"><a href="#"><i class="fa fa-circle-o"></i> Steven Smith</a></li>
-      <li class="online"><a href="#"><i class="fa fa-circle-o"></i> John Doe</a></li>
-      <li class="online"><a href="#"><i class="fa fa-circle-o"></i> Michael Smith</a></li>
-      <li class="busy"><a href="#"><i class="fa fa-circle-o"></i> Chris Rogers</a></li>
-    </ul>
-    
-    <p class="title">Friends</p>
-    <ul class="nav nav-pills nav-stacked contacts">
-      <li class="online"><a href="#"><i class="fa fa-circle-o"></i> Vernon Philander</a></li>
-      <li class="outside"><a href="#"><i class="fa fa-circle-o"></i> Kyle Abbott</a></li>
-      <li><a href="#"><i class="fa fa-circle-o"></i> Dean Elgar</a></li>
-    </ul>   
-    
-    <p class="title">Work</p>
-    <ul class="nav nav-pills nav-stacked contacts">
-      <li><a href="#"><i class="fa fa-circle-o"></i> Dale Steyn</a></li>
-      <li><a href="#"><i class="fa fa-circle-o"></i> Morne Morkel</a></li>
-    </ul>
-    
-  </div>
-  <div id="chat-box">
-    <div class="header">
-      <span>Richard Avedon</span>
-      <a class="close"><i class="fa fa-times"></i></a>    </div>
-    <div class="messages nano nscroller has-scrollbar">
-      <div class="content" tabindex="0" style="right: -17px;">
-        <ul class="conversation">
-          <li class="odd">
-            <p>Hi John, how are you?</p>
-          </li>
-          <li class="text-right">
-            <p>Hello I am also fine</p>
-          </li>
-          <li class="odd">
-            <p>Tell me what about you?</p>
-          </li>
-          <li class="text-right">
-            <p>Sorry, I'm late... see you</p>
-          </li>
-          <li class="odd unread">
-            <p>OK, call me later...</p>
-          </li>
-        </ul>
-      </div>
-    <div class="pane" style="display: none;"><div class="slider" style="height: 20px; top: 0px;"></div></div></div>
-    <div class="chat-input">
-      <div class="input-group">
-        <input type="text" placeholder="Enter a message..." class="form-control">
-        <span class="input-group-btn">
-        <button class="btn btn-danger" type="button">Send</button>
-        </span>      </div>
-    </div>
-  </div>
-</nav>
-<!-- /sidebar chats -->   
 
 
 
@@ -758,37 +574,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/common-script.js"></script>
 <script src="js/jquery.slimscroll.min.js"></script>
-<script src="js/jquery.sparkline.js"></script>
-<script src="js/sparkline-chart.js"></script>
-<script src="js/graph.js"></script>
-<script src="js/edit-graph.js"></script>
-<script src="plugins/kalendar/kalendar.js" type="text/javascript"></script>
-<script src="plugins/kalendar/edit-kalendar.js" type="text/javascript"></script>
-
-<script src="plugins/sparkline/jquery.sparkline.js" type="text/javascript"></script>
-<script src="plugins/sparkline/jquery.customSelect.min.js" ></script> 
-<script src="plugins/sparkline/sparkline-chart.js"></script> 
-<script src="plugins/sparkline/easy-pie-chart.js"></script>
-<script src="plugins/morris/morris.min.js" type="text/javascript"></script> 
-<script src="plugins/morris/raphael-min.js" type="text/javascript"></script>  
-<script src="plugins/morris/morris-script.js"></script> 
-
-
-
-
-
-<script src="plugins/demo-slider/demo-slider.js"></script>
-<script src="plugins/knob/jquery.knob.min.js"></script> 
-
-
-
-
 <script src="js/jPushMenu.js"></script> 
 <script src="js/side-chats.js"></script>
-<script src="js/jquery.slimscroll.min.js"></script>
-<script src="plugins/scroll/jquery.nanoscroller.js"></script>
-
-
-
 </body>
 </html>
