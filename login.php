@@ -1,14 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>ULTIMO Admin Dashboard Template</title>
-<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<link href="css/animate.css" rel="stylesheet" type="text/css" />
-<link href="css/admin.css" rel="stylesheet" type="text/css" />
-</head>
+<?php include "layout/head.php" ?>
+
 <body class="light_theme  fixed_header left_nav_fixed">
 <div class="wrapper">
   <!--\\\\\\\ wrapper Start \\\\\\-->
@@ -149,14 +140,6 @@
   </div>
 </nav>
 <!-- /sidebar chats -->   
-
-
-
-
-
-<script src="js/jquery-2.1.0.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/common-script.js"></script>
-<script src="js/jquery.slimscroll.min.js"></script>
+<?php include "layout/footer.php" ?>
 </body>
 </html>
