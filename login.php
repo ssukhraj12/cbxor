@@ -1,5 +1,4 @@
 <?php include "layout/head.php" ?>
-
 <body class="light_theme  fixed_header left_nav_fixed">
 <div class="wrapper">
   <!--\\\\\\\ wrapper Start \\\\\\-->
@@ -33,14 +32,6 @@
     </form>
  </div>
   </div>
-  
-  
-  
-  
-  
-  
-  
-  
 </div>
 <!--\\\\\\\ wrapper end\\\\\\-->
 <!-- Modal -->
